@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: 'Red Hat Display', sans-serif;
+    background: url(images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.card {
+   background-color: white;
+   border-radius: 12px;
+   width: 350px;
+   height: 550px;
+   text-align: center;
+}
+
+.img {
+    position: relative;
+}
+
+.img img {
+   width: 350px;
+   border-radius: 12px 12px 0 0 ;
+}
+
+.text {
+    margin: 2rem;
+}
+.text h1 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin: 1rem;
+    color: hsl(223, 47%, 23%);
+}
+
+.text p {
+    font-size: 0.8rem;
+    color: hsl(224, 23%, 55%);
+}
+
+.card-music {
+    background-color:  hsl(225, 100%, 98%);
+    margin: 1.5rem;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-music img {
+    padding: 12px;
+    margin-right: 5px;
+}
+
+.card-music span {
+    color: hsl(223, 47%, 23%);    
+    font-weight: 900;
+    font-size: 0.8rem;
+}
+
+.card-music p {
+    text-align: left;
+    margin-top: 17px;
+    color: hsl(224, 23%, 55%);
+    font-size: 0.8rem;
+}
+
+.card-music a {
+    margin-top: 25px;
+    margin-right: 1.5rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+}
+
+.card-music a:hover {
+    text-decoration: none;
+    color: hsla(245, 75%, 52%, 0.750);
+}
+
+.pay-cancel {
+    margin: 1.5rem;
+}
+
+.pay-cancel .pay {
+    background-color: hsl(245, 75%, 52%);
+    padding: 0.7rem;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700; 
+    font-size: 0.8rem;   
+}
+
+.pay-cancel .pay:hover {
+    cursor: pointer;
+    background-color: hsla(245, 75%, 52%, 0.750);
+}
+
+.pay-cancel .cancel {
+    margin-top: 10px;
+    padding: 0.7rem;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.pay-cancel .cancel:hover {
+    cursor: pointer;
+    color: hsl(223, 47%, 23%);
+}
